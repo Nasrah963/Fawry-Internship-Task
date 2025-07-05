@@ -127,11 +127,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Cart.cpp" />
+    <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="ECommerceSystem.cpp" />
+    <ClCompile Include="ExpirableProduct.cpp" />
+    <ClCompile Include="ExpirableShippableProduct.cpp" />
     <ClCompile Include="Fawry_Task.cpp" />
-    <ClCompile Include="product.cpp" />
+    <ClCompile Include="Product.cpp" />
+    <ClCompile Include="Shippable.cpp" />
+    <ClCompile Include="ShippableProduct.cpp" />
+    <ClCompile Include="ShippingService.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="product.h" />
+    <ClInclude Include="Cart.h" />
+    <ClInclude Include="Customer.h" />
+    <ClInclude Include="ECommerceSystem.h" />
+    <ClInclude Include="ExpirableProduct.h" />
+    <ClInclude Include="ExpirableShippableProduct.h" />
+    <ClInclude Include="Product.h" />
+    <ClInclude Include="Shippable.h" />
+    <ClInclude Include="ShippableProduct.h" />
+    <ClInclude Include="ShippingService.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
